@@ -1,0 +1,33 @@
+{
+  "name": "@fyber/hooks",
+  "version": "1.0.0",
+  "description": "use react hook build custom hooks",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "build:es": "rm -rf es && tsc --module es2015 --outDir es",
+    "build:cjs": "rm -rf lib && tsc --module commonjs --outDir lib",
+    "build": "npm run build:es && npm run build:cjs",
+    "prepublishOnly": "yarn && yarn build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyber-LJX/hooks.git"
+  },
+  "author": {
+    "name": "fyber",
+    "email": "cuteblackcat9@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fyber-LJX/hooks/issues"
+  },
+  "homepage": "https://github.com/fyber-LJX/hooks#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
