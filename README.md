@@ -18,5 +18,5 @@ npm install --save @fyber/hooks
 
 ## Custom Hooks
 
-- [useFetch]()
-- [useIntersectionObserver]()
+- [useFetch](https://github.com/fyber-LJX/hooks/tree/master/src/useFetch)
+- [useIntersectionObserver](https://github.com/fyber-LJX/hooks/tree/master/src/useIntersectionObserver)

@@ -1,7 +1,5 @@
 ## 使用
 
-## Demo
-
 ```javascript
 import Card from "components/goods-card/goods-card";
 import { connect } from "react-redux";
@@ -75,15 +73,6 @@ export default connect(
 ## 使用场景
 
 1. 曝光埋点
-
-## 支持范型
-
-```javascript
-useFetch<R, P>(...)
-```
-
--R: 请求返回值类型
--P: 请求参数类型
 
 ## 参数说明
 
