@@ -7,13 +7,13 @@ Hooks summarized by daily development that use React 、Typescript
 #### yarn
 
 ```javascript
-yarn add @fyber/hooks
+yarn add fyber_hooks
 ```
 
 #### npm
 
 ```javascript
-npm install --save @fyber/hooks
+npm install --save fyber_hooks
 ```
 
 ## Custom Hooks
