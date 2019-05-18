@@ -1,6 +1,6 @@
 {
   "name": "fyber_hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use react hook build custom hooks",
   "main": "lib/index.js",
   "module": "es/index.js",
